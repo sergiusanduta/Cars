@@ -24,7 +24,7 @@ namespace Cars
 
         public string GetCarInfo()
         {
-            string carInfo = _make + "," + _model + "," + _year + "," + _price;
+            string carInfo = _make + "|" + _model + "|" + _year + "|" + _price;
             return carInfo;
         }
     }    
